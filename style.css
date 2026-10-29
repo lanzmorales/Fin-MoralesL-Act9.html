@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+
+iframe:not([name]) {
+    width: 25%;
+    height: 100%;
+    border: none;
+    border-right: 2px solid #ccc;
+}
+
+iframe[name="viewing-screen"] {
+    width: 75%;
+    height: 100%;
+    border: none;
+}
+
