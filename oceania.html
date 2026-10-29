@@ -1,1 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Continent Content</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+  margin: 0;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+/* Page Heading */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+  color: #0f172a;
+}
+
+/* Table container styling */
+table {
+  width: 100%;
+  max-width: 500px;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Headers */
+th {
+  background-color: #0f172a;
+  color: #ffffff;
+  text-align: left;
+  padding: 16px 20px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Table cells */
+td {
+  padding: 12px 20px;
+  border-bottom: 1px solid #e2e8f0;
+  vertical-align: middle;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Zebra striping on rows */
+tbody tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+/* Hover effect */
+tbody tr:hover {
+  background-color: #f1f5f9;
+}
+
+/* Remove bottom border on last row */
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Image/Flag styling */
+td img {
+  width: 60px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  display: block;
+}
+    </style>
+</head>
+<body>
+    <h1>Oceania</h1> 
+    <table>
+        <thead>
+            <tr>
+                <th>Flag</th>
+                <th>Country Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="pictures/australia.png" alt="Australia Flag" width="200" length="200"></td>
+                <td>Australia</td>
+            </tr>
+            <tr>
+                <td><img src="pictures/fiji.png" alt="Fiji Flag" width="200" length="200"></td>
+                <td>Fiji</td>
+            </tr>
+            <tr>
+                <td><img src="pictures/indonesia.png" alt="Indonesia Flag" width="200" length="200"></td>
+                <td>Indonesia</td>
+            </tr>
+            <tr>
+                <td><img src="pictures/guam.png" alt="Guam Flag" width="200" length="200"></td>
+                <td>Guam</td>
+            </tr>
+            <tr>
+                <td><img src="pictures/micronesia.png" alt="Micronesia Flag" width="200" length="200"></td>
+                <td>Micronesia</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
